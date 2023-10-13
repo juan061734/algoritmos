@@ -1,0 +1,28 @@
+INICIO
+    Colocar aceite
+    Sofreir
+    Revolver
+    Agregar arroz
+    Agregar agua
+    Agregar condimentos
+    Dejar cocinar
+FIN
+
+INICIO
+    Colocar aceite en una olla
+    Sofrie pimentones, ajo y cebolla
+    Revuelve hasta dorar
+    Agregar 3 tazas de arroz
+    Revolver
+    Agregar 5 tazas de agua
+    Agregar verduras en trozos
+    Agregar Pollo
+    Agregar cubo de calgo de Pollo
+    Agregar sal
+    Revolver
+    Dejar cocinar en fuego medio
+    Esperar que se absorba el agua
+    Dejar cocinar por 10 min a fuego bajo
+    Esperar que este suave
+    Servir
+FIN
