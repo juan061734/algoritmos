@@ -1,7 +1,5 @@
 Nivel 1
-Determinar si un número es par o impar.
-Determinar si una cadena es un palíndromo.
-Determinar si un número es primo.
+
 Determinar si un número es divisible por otro número.
 Determinar si una fecha es válida.
 
