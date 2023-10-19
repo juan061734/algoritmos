@@ -275,6 +275,29 @@
     console.log(promedioAlgoritmo23);
 
     // 24.Elabore un algoritmo que lea 10 edades y muestre el promedio de las edades.
+    let edad1Algoritmo24 = prompt("Ingrese la edad")
+    let edad2Algoritmo24 = prompt("Ingrese la edad")
+    let edad3Algoritmo24 = prompt("Ingrese la edad")
+    let edad4Algoritmo24 = prompt("Ingrese la edad")
+    let edad5Algoritmo24 = prompt("Ingrese la edad")
+    let edad6Algoritmo24 = prompt("Ingrese la edad")
+    let edad7Algoritmo24 = prompt("Ingrese la edad")
+    let edad8Algoritmo24 = prompt("Ingrese la edad")
+    let edad9Algoritmo24 = prompt("Ingrese la edad")
+    let edad10Algoritmo24 = prompt("Ingrese la edad")
+    let sumaEdadesAlgoritmo24 = edad1Algoritmo24 + edad2Algoritmo24 + edad3Algoritmo24 + edad4Algoritmo24 + edad5Algoritmo24 + edad6Algoritmo24 + edad7Algoritmo24 + edad8Algoritmo24 + edad9Algoritmo24 + edad10Algoritmo24
+    let promedioEdadesAlgoritmo24 = sumaEdadesAlgoritmo24 / 10
 
-    // 25.Elabore un algoritmo que lea 10 numeros y los muestre ordenadamente.
+    // 25.Elabore un algoritmo que lea 10 numeros y los muestre ordenadamente
+    let numero1Algoritmo25 = parseInt(prompt("Digite el numero 1"))
+    let numero2Algoritmo25 = parseInt(prompt("Digite el numero 2"))
+    let numero3Algoritmo25 = parseInt(prompt("Digite el numero 3"))
+    let numero4Algoritmo25 = parseInt(prompt("Digite el numero 4"))
+    let numero5Algoritmo25 = parseInt(prompt("Digite el numero 5"))
+    let numero6Algoritmo25 = parseInt(prompt("Digite el numero 6"))
+    let numero7Algoritmo25 = parseInt(prompt("Digite el numero 7"))
+    let numero8Algoritmo25 = parseInt(prompt("Digite el numero 8"))
+    let numero9Algoritmo25 = parseInt(prompt("Digite el numero 9"))
+    let numero10Algoritmo25 = parseInt(prompt("Digite el numero 10"))
+    console.log(`${numero1Algoritmo25}, ${numero2Algoritmo25}, ${numero3Algoritmo25}, ${numero4Algoritmo25}, ${numero5Algoritmo25}, ${numero6Algoritmo25}, ${numero7Algoritmo25}, ${numero8Algoritmo25}, ${numero9Algoritmo25}, ${numero10Algoritmo25}`);
 })()
