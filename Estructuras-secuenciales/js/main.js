@@ -1,4 +1,37 @@
 (() => {
+    // // cadena de texto
+    // let nombreDePersona = "Juan Felipe";
+    // console.log(nombreDePersona);
+
+    // let edadDePersona = 22;
+    // console.log(edadDePersona);
+
+    // let estadoDePersona = false;
+    // console.log(estadoDePersona);
+
+    // const edadPersonas = [22, 19, 18, 22, 20];
+    // console.log(edadPersonas);
+    // console.log(edadPersonas[0]);
+    // console.log(edadPersonas[1]);
+
+    // const objetoPersona = {
+    //     nombre: "Juan Felipe",
+    //     edad: 22,
+    //     estadoSalud: true,
+    // }
+    // console.log(objetoPersona);
+
+
+    // const informacionDePersonas = [{
+    //     nombre: "Juan Felipe",
+    //     edad: 22,
+    //     estadoSalud: true,
+    // }, {
+    //     nombre: "Sebastian",
+    //     edad: 19,
+    //     estadoSalud: true,
+    // }]
+    // console.log(informacionDePersonas);
 
     // 1.Elabore un algoritmo que muestre “Hola Mundo”.
     console.log("Hola mundo");
@@ -10,14 +43,15 @@
     console.log("Hola mundo");
 
     // 3.Elabore un algoritmo que muestre 7 veces “hola Mundo” con las 7 variables.
-    let saludo = "Hola mundo";
-    console.log(saludo);
-    console.log(saludo);
-    console.log(saludo);
-    console.log(saludo);
-    console.log(saludo);
-    console.log(saludo);
-    console.log(saludo);
+    let saludo1Algoritmo3 = "Hola mundo";
+    console.log(saludo1Algoritmo3);
+
+    let saludo2Algoritmo3 = "Hola mundo";
+    console.log(saludo2Algoritmo3);
+
+    let saludo3Algoritmo3 = "Hola mundo";
+    console.log(saludo3Algoritmo3);
+
 
     // 4.Elabore un algoritmo que muestre 5 veces “hola Mundo” con 2 variables.
     let saludo1 = "Hola mundo";
@@ -152,12 +186,83 @@
     let nombre5Algoritmo19 = prompt("Ingrese su nombre");
     let apellido5Algoritmo19 = prompt("Ingrese su apellido");
 
-
     // 20.Elabore un algoritmo que lea 15 nombres de personas y las muestre.
+    let nombre1Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre1Algoritmo20);
+    let nombre2Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre2Algoritmo20);
+    let nombre3Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre3Algoritmo20);
+    let nombre4Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre4Algoritmo20);
+    let nombre5Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre5Algoritmo20);
+    let nombre6Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre6Algoritmo20);
+    let nombre7Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre7Algoritmo20);
+    let nombre8Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre8Algoritmo20);
+    let nombre9Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre9Algoritmo20);
+    let nombre10Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre10Algoritmo20);
+    let nombre11Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre11Algoritmo20);
+    let nombre12Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre12Algoritmo20);
+    let nombre13Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre13Algoritmo20);
+    let nombre14Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre14Algoritmo20);
+    let nombre15Algoritmo20 = prompt("Ingrese su nombre");
+    console.log(nombre15Algoritmo20);
+
     // 21.Elabore un algoritmo que lea 4 números y muestre la suma de ellos.
+    let numero1Algoritmo21 = prompt("Ingrese el numero uno");
+    let numero2Algoritmo21 = prompt("Ingrese el numero dos");
+    let numero3Algoritmo21 = prompt("Ingrese el numero tres");
+    let numero4Algoritmo21 = prompt("Ingrese el numero cuatro");
+    let sumaAlgoritmo21 = numero1Algoritmo21 + numero2Algoritmo21 + numero3Algoritmo21 + numero4Algoritmo21;
+    console.log(sumaAlgoritmo21);
+
     // 22.Elabore un algoritmo que el usuario ingrese 10 nombres y los muestre inmediatamente.
+    let nombre1Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre1Algoritmo22);
+    let nombre2Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre2Algoritmo22);
+    let nombre3Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre3Algoritmo22);
+    let nombre4Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre4Algoritmo22);
+    let nombre5Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre5Algoritmo22);
+    let nombre6Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre6Algoritmo22);
+    let nombre7Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre7Algoritmo22);
+    let nombre8Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre8Algoritmo22);
+    let nombre9Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre9Algoritmo22);
+    let nombre10Algoritmo22 = prompt("Ingrese su nombre");
+    console.log(nombre10Algoritmo22);
+
     // 23.Elabore un algoritmo que el usuario ingrese 10 edades y muestre el promedio de las edades.
+    let edad1Algoritmo23 = prompt("Ingrese su edad");
+    let edad2Algoritmo23 = prompt("Ingrese su edad");
+    let edad3Algoritmo23 = prompt("Ingrese su edad");
+    let edad4Algoritmo23 = prompt("Ingrese su edad");
+    let edad5Algoritmo23 = prompt("Ingrese su edad");
+    let edad6Algoritmo23 = prompt("Ingrese su edad");
+    let edad7Algoritmo23 = prompt("Ingrese su edad");
+    let edad8Algoritmo23 = prompt("Ingrese su edad");
+    let edad9Algoritmo23 = prompt("Ingrese su edad");
+    let edad10Algoritmo23 = prompt("Ingrese su edad");
+    let sumaAlgoritmo23 = edad1Algoritmo23 + edad2Algoritmo23 + edad3Algoritmo23 + edad4Algoritmo23 + edad5Algoritmo23 + edad6Algoritmo23 + edad7Algoritmo23 + edad8Algoritmo23 + edad9Algoritmo23 + edad10Algoritmo23;
+    let promedioAlgoritmo23 = sumaAlgoritmo23 / 10;
+    console.log(promedioAlgoritmo23);
+
     // 24.Elabore un algoritmo que lea 10 edades y muestre el promedio de las edades.
     // 25.Elabore un algoritmo que lea 10 numeros y los muestre ordenadamente
-
 })()
