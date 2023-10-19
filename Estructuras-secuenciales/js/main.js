@@ -133,29 +133,29 @@
     console.log(`El nombre es Juan Pablo, el apellido es Palomino y la edad 22 años`);
 
     // 13.Elabore un algoritmo que muestre 2 números y su resta.
+    console.log(10);
+    console.log(5);
     console.log(10 - 5);
 
     // 14.Elabore un algoritmo que muestre 5 números los muestre en desorden.
     console.log(1);
-    console.log(2);
-    console.log(3);
-    console.log(4);
-    console.log(5);
+    console.log(24);
+    console.log(35);
+    console.log(41);
+    console.log(58);
 
     // 15.Elabore un algoritmo que sume dos edades y muestre su promedio.
-    let edad1algoritmo15 = prompt("Ingrese la edad uno");
-    let edad2algoritmo15 = prompt("Ingrese la edad dos");
-    let sumaAlgoritmo15 = edad1algoritmo15 + edad2algoritmo15;
-    let promedioAlgoritmo15 = sumaAlgoritmo15 / 2;
-    console.log(promedioAlgoritmo15);
+    console.log((22 + 19) / 2);
 
     // 16.Elabore un algoritmo que lea 3 nombres, con su edad y estado civil.
     let nombre1Algoritmo16 = prompt("Ingrese su nombre");
     let edad1Algoritmo16 = prompt("Ingrese su edad");
     let estadoCivil1Algoritmo16 = prompt("Ingrese su estado civil");
+
     let nombre2Algoritmo16 = prompt("Ingrese su nombre");
     let edad2Algoritmo16 = prompt("Ingrese su edad");
     let estadoCivil2Algoritmo16 = prompt("Ingrese su estado civil");
+
     let nombre3Algoritmo16 = prompt("Ingrese su nombre");
     let edad3Algoritmo16 = prompt("Ingrese su edad");
     let estadoCivil3Algoritmo16 = prompt("Ingrese su estado civil");
@@ -165,6 +165,8 @@
     let numero2Algoritmo17 = prompt("Ingrese el numero dos");
     let numero3Algoritmo17 = prompt("Ingrese el numero tres");
     let numero4Algoritmo17 = prompt("Ingrese el numero cuatro");
+
+    console.log(numero1Algoritmo17 + numero2Algoritmo17 + numero3Algoritmo17 + numero4Algoritmo17);
 
     // 18.Elabore un algoritmo que lea 4 numeros y muestre la suma de dos de ellos.
     let numero1Algoritmo18 = prompt("Ingrese el numero uno");
@@ -177,14 +179,23 @@
     // 19.Elabore un algoritmo que lea 5 nombres y 5 apellidos de personas y las muestre.
     let nombre1Algoritmo19 = prompt("Ingrese su nombre");
     let apellido1Algoritmo19 = prompt("Ingrese su apellido");
+    console.log(nombre1Algoritmo19 + " " + apellido1Algoritmo19);
+
     let nombre2Algoritmo19 = prompt("Ingrese su nombre");
     let apellido2Algoritmo19 = prompt("Ingrese su apellido");
+    console.log(nombre2Algoritmo19 + " " + apellido2Algoritmo19);
+
     let nombre3Algoritmo19 = prompt("Ingrese su nombre");
     let apellido3Algoritmo19 = prompt("Ingrese su apellido");
+    console.log(nombre3Algoritmo19 + " " + apellido3Algoritmo19);
+
     let nombre4Algoritmo19 = prompt("Ingrese su nombre");
     let apellido4Algoritmo19 = prompt("Ingrese su apellido");
+    console.log(nombre4Algoritmo19 + " " + apellido4Algoritmo19);
+
     let nombre5Algoritmo19 = prompt("Ingrese su nombre");
     let apellido5Algoritmo19 = prompt("Ingrese su apellido");
+    console.log(nombre5Algoritmo19 + " " + apellido5Algoritmo19);
 
     // 20.Elabore un algoritmo que lea 15 nombres de personas y las muestre.
     let nombre1Algoritmo20 = prompt("Ingrese su nombre");
@@ -264,5 +275,6 @@
     console.log(promedioAlgoritmo23);
 
     // 24.Elabore un algoritmo que lea 10 edades y muestre el promedio de las edades.
-    // 25.Elabore un algoritmo que lea 10 numeros y los muestre ordenadamente
+
+    // 25.Elabore un algoritmo que lea 10 numeros y los muestre ordenadamente.
 })()
