@@ -1,0 +1,264 @@
+
+package ejerciciostaller2;
+
+import java.util.Scanner;
+
+
+public class Ejerciciostaller2 {
+
+   
+    public static void main(String[] args) {
+      
+        
+        Scanner entrada = new Scanner (System.in);
+        //1. Suponga que un individuo desea invertir su capital en un banco y desea saber cuánto dinero ganara 
+//después de un mes si el banco paga a razón de 2% mensual
+        /*System.out.println("ingrese su capital");
+        double capital = entrada.nextDouble();
+        double interes = 0.02;
+        double utilidad = capital*0.02;
+        double valorutilidad = capital + utilidad;
+        System.out.println("El valor ganado es de "+valorutilidad);*/
+        /*2.Un vendedor recibe un sueldo base más un 10% extra por comisión de sus ventas, el vendedor
+        desea saber cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el
+        mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones*/
+        /* System.out.println("ingrese su sueldo base ");
+        int   sueldoBase = entrada.nextInt();
+        System.out.println("ingrese la primera venta ");
+        int   venta1 = entrada.nextInt();
+        System.out.println("ingrese la segunda venta ");
+        int   venta2 = entrada.nextInt();
+        System.out.println("ingrese la tercera venta ");
+        int   venta3 = entrada.nextInt();
+        int comision = (int) (venta1 + venta2 + venta3 *0.20);
+        int ComisionGanada = sueldoBase + comision;
+        System.out.println("La comision ganada seria "+ComisionGanada);
+         */
+        // 3. Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuanto 
+//deberá pagar finalmente por su compra
+
+       /* System.out.println("ingrese el valor de la compra ");
+       
+        int compra = entrada.nextInt();
+        int descuento = (int) (compra * 0.15);
+        int total = compra - descuento;
+        
+        System.out.println("el total a pagar de la compra es "+total);
+        System.out.println("el descuento es de " +descuento);
+        
+        */
+       
+      /* 4. Un aprendiz desea saber cuál será su calificación final en la materia de Algoritmos. Dicha calificación 
+se compone de los siguientes porcentajes:
+55% del promedio de sus tres calificaciones parciales.
+30% de la calificación del examen final.
+15% de la calificación de un trabajo final.*/
+      
+       /* System.out.println("ingrese la primera nota del parcial");
+        int nota1 = entrada.nextInt();
+        System.out.println("ingrese la primera nota del segunda");
+        int nota2 = entrada.nextInt();
+        System.out.println("ingrese la primera nota del tercera");
+        int nota3 = entrada.nextInt();
+        
+        int notaparciales = (int) (nota1 + nota2 + nota3 /3 * 0.55);
+        
+        System.out.println("ingrese la primera nota del examen final");
+        int examenfinal = entrada.nextInt();
+        
+        int examenfinal1 = (int) (examenfinal * 0.35);
+        
+         System.out.println("ingrese tu nota del trabajo final");
+        int trabajofinal = entrada.nextInt();
+        
+        int trabajofinal1 = (int) (trabajofinal * 0.15);
+        
+        int notafinal= notaparciales + examenfinal1 + trabajofinal1;
+        
+        System.out.println(" Su nota final es "+notafinal);
+        
+        */
+
+// 5.Un maestro desea saber qué porcentaje de hombres y que porcentaje de mujeres hay en un grupo de 
+//estudiantes.
+
+
+        /*System.out.println("ingresa el numero de hombre");
+        double hombres = entrada.nextDouble();
+        
+                System.out.println("ingresa el numero de mujeres");
+        double mujeres = entrada.nextDouble();
+        
+        double suma_total = hombres + mujeres;
+        
+        double porcentajehombres = (hombres *100) /suma_total;      
+        
+        double porcentajemujeres = (mujeres *100) /suma_total;
+        
+        System.out.println(" el porcentaje de hombres de %"+porcentajehombres);
+                System.out.println(" el porcentaje de mujeres de %"+porcentajemujeres);
+                */
+        
+        //6. Dada una cantidad en pesos, obtener la equivalencia en dólares, asumiendo que la unidad cambiaría 
+//es un dato desconocido.
+
+    /*       double equivalencia,
+        cantidadDolares;
+// Solicitar datos
+System.out.println("Ingresa el valor del dólar en pesos: ");
+equivalencia = entrada.nextDouble();
+System.out.println("Ingresa la cantidad de dólares: ");
+cantidadDolares = entrada.nextDouble();
+double pesos = cantidadDolares * equivalencia;
+System.out.printf("%f dólares equivalen a %f pesos\n", cantidadDolares, pesos);
+*/
+       
+        
+  
+        //  7.La presión, el volumen y la temperatura de una masa de aire se relacionan por la fórmula:
+//Masa = (presión * volumen)/(0.37 * (temperatura + 460)
+
+       /*     double presion,volumen,temperatura,masa;
+            
+            System.out.println("ingre la presion");
+            presion = entrada.nextDouble();
+            
+            System.out.println("ingrese el volume");
+            volumen = entrada.nextDouble();
+            
+            System.out.println("ingrese la temperatura");
+            temperatura = entrada.nextDouble();
+            
+            masa=(presion * volumen) / (0.37 + (temperatura +460));
+            
+            System.out.println(" el resultado de la masa es "+masa);
+            
+           */ 
+            
+            //8. Calcular el número de pulsaciones que una persona debe tener por cada 10 segundos de ejercicio, si 
+//la fórmula es: num. Pulsaciones = (220 - edad)/10
+
+           /* System.out.println("ingresa tu edad");
+            int edad = entrada.nextInt();
+            
+            double pusalciones  = (220-edad)/10;
+            
+            System.out.println("tu numero de pulsaciones es "+pusalciones);
+*/
+           
+           //9. Calcular el nuevo salario de un obrero si obtuvo un incremento del 25% sobre su salario anterio
+           
+         /*  System.out.println("ingresa tu salario anterior");
+           int salario = entrada.nextInt();
+           
+           int suma_ = (int) (salario * 0.25);
+           int total = suma_ + salario;
+           
+           System.out.println("tu nuevo salario con el aumento es de "+total);
+*/
+         
+        //10. El dueño de una tienda compra un artículo a un precio determinado. Obtener el precio en que lo debe 
+//vender para obtener una ganancia del 30%.
+
+     /*   System.out.println("ingresa el valor del articulo");
+        int articulo = entrada.nextInt();
+        
+        int suma = (int) (articulo * 0.30);
+        int ganancia = suma + articulo;
+
+        System.out.println("La ganancia del articulo que se debe obtener es de $"+ganancia);
+*/
+     /*11.Todos los lunes, miércoles y viernes, una persona corre la misma ruta y cronometra los tiempos 
+obtenidos. Determinar el tiempo promedio que la persona tarda en recorrer la ruta en una semana 
+cualquiera.*/
+     
+     /*
+     
+        System.out.println("ingresa el tiempo corrido el día lunes");
+        double lunes = entrada.nextDouble();
+        System.out.println("ingresa el tiempo corrido el día martes");
+        double martes = entrada.nextDouble();
+        System.out.println("ingresa el tiempo corrido el día miercoles");
+        double miercoles = entrada.nextDouble();
+        
+        double tiemposemana= lunes+martes+miercoles / 3;
+        
+        System.out.println("el tiempo de recorrido es de "+tiemposemana);
+     */
+     /*12.Tres personas deciden invertir su dinero para fundar una empresa. Cada una de ellas invierte una 
+cantidad distinta. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total 
+invertida*/
+     
+          /*  System.out.println("ingresa la inversion de la primera persona");
+           double persona1 = entrada.nextDouble();
+                 System.out.println("ingresa la inversion de la segunda persona");
+                        double persona2 = entrada.nextDouble();
+            System.out.println("ingresa la inversion de la tercera persona");
+                   double persona3 = entrada.nextDouble();
+
+                   double sumatotal = persona1+persona2+persona3;
+               double  porcentaje1 = persona1/sumatotal * 100;
+                        double   porcentaje2 = persona2/sumatotal * 100;
+                         double    portecentaje3 =persona3/sumatotal * 100;
+                         
+                         System.out.println("el porcentaje de la primera persona es de %"+porcentaje1);
+                          System.out.println("el porcentaje de la segunda persona es de %"+porcentaje2);
+                           System.out.println("el porcentaje de la tercera persona es de %"+portecentaje3);
+                   
+*/
+          //13.Señor aprendiz el Sena lo contrata para que realice un algoritmo que calcule: venta por producto, 
+//valor del IVA, valor descuento y neto a pagar de un cliente para una factura de 5 productos.
+
+      /*  System.out.println("ingrese el valor del primer producto");
+        int producto1 = entrada.nextInt();
+                System.out.println("ingrese el valor del segundo producto");
+        int producto2 = entrada.nextInt();
+
+                System.out.println("ingrese el valor del tercer producto");
+        int producto3 = entrada.nextInt();
+        System.out.println("ingrese el valor del cuerto producto");
+        int producto4 = entrada.nextInt();
+        System.out.println("ingrese el valor del quinto producto");
+        int producto5 = entrada.nextInt();
+        
+        int suma_producto = producto1 + producto2 + producto3 + producto4 + producto5;
+        int iva = (int) (suma_producto * 0.15);
+        int descuento = (int) (suma_producto * 0.10);
+        int neto_pagar = suma_producto + iva - descuento;
+        
+        System.out.println(" *****factura******");
+        System.out.println("************************");
+        System.out.println("Valor de productos $"+suma_producto);
+        System.out.println("valor iva $"+iva);
+        System.out.println("descuento a por el 10% $ "+descuento);
+        System.out.println("valor neto a pagar $"+neto_pagar);
+        System.out.println("*******************************");
+        
+        */
+        /*14.La empres Salome Style, desea vender 3 productos a “Fredy Lujos”, la empresa a cada producto le 
+da un descuento del 5% al primer producto, al segundo un descuento del 7% y 9% al tercer producto. 
+La empresa “Fredy Lujos” lo contrata para saber cuanto debe pagar por dicha factura */
+        
+      /*  System.out.println("ingrese el valor del primer producto");
+            int productos1 = entrada.nextInt();
+        System.out.println("ingrese el valor del segundo producto");
+            int productos2 = entrada.nextInt();
+            System.out.println("ingrese el valor del tercer producto");
+            int productos3 = entrada.nextInt();
+            
+            int descuento1= (int) (productos1 * 0.05);
+              int descuento2= (int) (productos2 * 0.07);
+                int descuento3= (int) (productos3 * 0.09);
+                System.out.println("*****************factura***********************");
+                System.out.println("el descuento del primero producto es $"+descuento1);
+                System.out.println("el descuento del segundo producto es $"+descuento2);            
+                System.out.println("el descuento del producto producto es $"+descuento3);                
+                 System.out.println("********************************************");
+
+        */    
+            
+
+    }
+    
+}
+ 
