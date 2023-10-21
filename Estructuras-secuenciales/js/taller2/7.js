@@ -1,0 +1,1 @@
+// La presión, el volumen y la temperatura de una masa de aire se relacionan por la fórmula: Masa = (presión * volumen)/(0.37 * (temperatura + 460))
