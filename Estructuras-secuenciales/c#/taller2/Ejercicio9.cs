@@ -2,9 +2,9 @@
 
 using System;
 
-namespace Ejercicio_1_1_1_1
+namespace Ejercicio9
 {
-    class Program
+    class Ejercicio9
     {
         static void Main(string[] args)
         {
